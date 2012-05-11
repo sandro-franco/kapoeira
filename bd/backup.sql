@@ -248,4 +248,13 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
-
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (1, 'Backlog', 'B', 1);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (2, 'Backlog Concluído', 'B_FINISH', 2);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (3, 'Requisitos', 'R', 3);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (4, 'Requisitos Concluídos', 'R_FINISH', 4);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (9, 'Implantação', 'P', 9);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (10, 'Implantação Concluída', 'P_FINISH', 10);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (5, 'Implementação', 'I', 5);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (6, 'Implementação Concluída', 'I_FINISH', 6);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (7, 'Testes', 'T', 7);
+INSERT INTO situacao (codigo, descricao, chave_situacao, ordem) VALUES (8, 'Testes Concluídos', 'T_FINISH', 8);
